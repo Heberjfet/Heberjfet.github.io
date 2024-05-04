@@ -63,7 +63,6 @@ h1 {
 
 #lateral {
     width: 60%;
-    background-color: red;
     height: 75%;
     border-radius: 3% 3%;
     background-color: var(--principalColor);
@@ -72,7 +71,7 @@ h1 {
 }
 
 #lateral.activo {
-    display: flexbox;
+    display: flex;
 }
 
 @media (min-width:1200px) {

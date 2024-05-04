@@ -1,5 +1,3 @@
-@import '~mdb-ui-kit/css/mdb.min.css';
-
 :root {
     --principalColor: rgb(20, 31, 36);
 }
@@ -63,6 +61,7 @@ h1 {
 
 #lateral {
     width: 60%;
+    background-color: red;
     height: 75%;
     border-radius: 3% 3%;
     background-color: var(--principalColor);
@@ -71,7 +70,7 @@ h1 {
 }
 
 #lateral.activo {
-    display: flex;
+    display: block;
 }
 
 @media (min-width:1200px) {

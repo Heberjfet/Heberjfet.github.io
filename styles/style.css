@@ -88,7 +88,7 @@ h1 {
         -webkit-margin-before: 0;
         margin-block-start: 0;
         font-family: SF Pro Display, Helvetica Neue, sans-serif;
-        font-size: 100px;
+        font-size: 90px;
         font-weight: 600;
         letter-spacing: -2.8px;
         line-height: 167px;
@@ -99,12 +99,34 @@ h1 {
     }
 }
 
+h1 {
+    transition: transform 0.3s;
+}
+
+h1:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 .description {
     color: #ffffff;
     font-family: SF Pro Display, Helvetica Neue, sans-serif;
     font-size: 40px;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 40px;
     -webkit-margin-before: 40px;
     margin-block-start: 40px;
     -webkit-margin-after: 20px;
